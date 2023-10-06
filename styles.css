@@ -1,0 +1,73 @@
+.flex-container{
+    width:100%
+}
+
+.white-text{
+    color: white;
+
+}
+
+.green-text{
+    color:green;
+}
+
+.green-apple-bg{
+    background-color: #7fc22d;
+}
+
+.iron-blue-bg{
+    background-color: darkslategrey;
+}
+.iconsize{
+    height: 4em;
+    width: 8em;
+}
+
+.grey-bg{
+    background-color: #343a40;
+}
+
+.hawaiicol{
+   background-image: url("/images/hawaii.jpg");
+   height:20em;
+}
+
+.customtextsize{
+    font-size: 0.8rem;
+
+}
+
+
+
+.nomargin{
+    margin: 0;
+}
+
+.top-white-border{
+    border-top: 1px double white;
+}
+
+.left-white-border{
+    border-left: 1px solid white;
+}
+
+.carousel-size{
+    max-height: 30em;
+}
+
+
+#labelHeader{    
+    font-size: 1.3em;
+    padding: 1em;
+    white-space: nowrap;
+}
+
+.hide-on-mobile{
+    display:block;
+}
+
+@media (max-width: 767px) {
+    .hide-on-mobile {
+      display: none;
+    } 
+}  
